@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-10T18:51:23 IST" name="Default suite" finished-at="2022-03-10T18:51:57 IST" duration-ms="34585">
+    <groups>
+    </groups>
+    <test started-at="2022-03-10T18:51:23 IST" name="Default test" finished-at="2022-03-10T18:51:57 IST" duration-ms="34585">
+      <class name="com.DemoJavaV1.TestCases.DataProviders">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.DemoJavaV1.TestCases.DataProviders@14dd9eb7]" started-at="2022-03-10T18:51:23 IST" name="setup" finished-at="2022-03-10T18:51:57 IST" duration-ms="34314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="get(java.lang.String, java.lang.String)[pri:0, instance:com.DemoJavaV1.TestCases.DataProviders@14dd9eb7]" started-at="2022-03-10T18:51:57 IST" name="get" data-provider="LoginData" finished-at="2022-03-10T18:51:57 IST" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dhangarsaurabh2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyzaahskhsh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get -->
+        <test-method signature="get(java.lang.String, java.lang.String)[pri:0, instance:com.DemoJavaV1.TestCases.DataProviders@14dd9eb7]" started-at="2022-03-10T18:51:57 IST" name="get" data-provider="LoginData" finished-at="2022-03-10T18:51:57 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saurabhdada14@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get -->
+      </class> <!-- com.DemoJavaV1.TestCases.DataProviders -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
